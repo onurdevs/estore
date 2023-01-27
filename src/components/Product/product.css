@@ -1,0 +1,39 @@
+.card{
+    transition: all 0.3s ease-in-out;
+    border:0;
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+    height: 100%;
+
+
+
+}
+
+.card-img-top{
+    transition: all 0.3s ease-in-out;
+    object-fit: contain;
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.card-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.card-price{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
